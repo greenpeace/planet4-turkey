@@ -38,6 +38,8 @@ job_environments:
     GOOGLE_PROJECT_ID: planet4-production
     HELM_NAMESPACE: turkey
     HELM_RELEASE: planet4-turkey-release
+    MIN_REPLICA_COUNT: 1
+    MAX_REPLICA_COUNT: 1
     NEWRELIC_APPNAME: P4 Turkey Release
     WP_DB_NAME: planet4-turkey_wordpress_release
     WP_STATELESS_BUCKET: planet4-turkey-stateless-release
