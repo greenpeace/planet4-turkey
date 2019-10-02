@@ -509,7 +509,7 @@ workflows:
           filters:
             branches:
               only:
-                - master
+                - master-dont-run
     jobs:
       - create-sync-sql:
           context: org-global
