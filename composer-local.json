@@ -1,14 +1,14 @@
 {
-	"name": "greenpeace/planet4-turkey",
-	"description": "Greenpeace P4 Turkey",
-	"license": "MIT",
-	"require": {
-		"greenpeace/planet4-child-theme-turkey": "*"
-	},
-	"scripts": {
-		"core:language": "wp language core install tr_TR; wp language core activate tr_TR",
-		"site:custom": [
-			"@core:language"
-		]
-	}
+    "name": "greenpeace/planet4-turkey",
+    "description": "Greenpeace P4 Turkey",
+    "license": "MIT",
+    "require": {
+        "greenpeace/planet4-child-theme-turkey": "*"
+    },
+    "scripts": {
+        "core:language": "wp language core install tr_TR; wp language core activate tr_TR",
+        "site:custom": [
+            "@core:language"
+        ]
+    }
 }
