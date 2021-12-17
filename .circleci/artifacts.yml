@@ -10,7 +10,6 @@ job_environments:
     GCLOUD_CLUSTER: p4-development
     HELM_NAMESPACE: develop
     HELM_RELEASE: planet4-turkey
-    NEWRELIC_APPNAME: P4 Turkey Development
     WP_DB_NAME: planet4-turkey_wordpress_develop
     WP_STATELESS_BUCKET: planet4-turkey-stateless-develop
   release_build_env: &release_build_env
@@ -23,7 +22,6 @@ job_environments:
     GOOGLE_PROJECT_ID: planet4-production
     HELM_NAMESPACE: turkey
     HELM_RELEASE: planet4-turkey-release
-    NEWRELIC_APPNAME: P4 Turkey Release
     WP_DB_NAME: planet4-turkey_wordpress_release
     WP_STATELESS_BUCKET: planet4-turkey-stateless-release
   production_environment: &production_environment
@@ -34,6 +32,5 @@ job_environments:
     HELM_NAMESPACE: turkey
     HELM_RELEASE: planet4-turkey-master
     MIN_REPLICA_COUNT: 2
-    NEWRELIC_APPNAME: P4 Turkey Production
     WP_DB_NAME: planet4-turkey_wordpress_master
     WP_STATELESS_BUCKET: planet4-turkey-stateless
