@@ -1,12 +1,6 @@
 {
   "scenarios": [
     {
-      "label": "Planet4 Turkey act page",
-      "url": "https://APP_HOSTNAME/APP_HOSTPATH/harekete-gec/",
-      "delay": 3000,
-      "misMatchThreshold": 1.5
-    },
-    {
       "label": "Planet4 Turkey explore page",
       "url": "https://APP_HOSTNAME/APP_HOSTPATH/kesfet/",
       "delay": 3000,
