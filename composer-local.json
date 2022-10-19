@@ -3,7 +3,8 @@
   "description": "Greenpeace P4 Turkey",
   "license": "MIT",
   "require": {
-    "greenpeace/planet4-child-theme-turkey": "dev-main"
+    "greenpeace/planet4-child-theme-turkey": "dev-main",
+    "plugins/gravityformshubspot": "*"
   },
   "scripts": {
     "core:language": "wp language core install tr_TR; wp language core activate tr_TR",
