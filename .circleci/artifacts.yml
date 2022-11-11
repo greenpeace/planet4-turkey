@@ -8,7 +8,7 @@ job_environments:
     CLOUDSQL_INSTANCE: p4-develop-k8s
     GOOGLE_PROJECT_ID: planet-4-151612
     GCLOUD_CLUSTER: p4-development
-    HELM_NAMESPACE: develop
+    HELM_NAMESPACE: turkey
     HELM_RELEASE: planet4-turkey
     WP_DB_NAME: planet4-turkey_wordpress_develop
     WP_STATELESS_BUCKET: planet4-turkey-stateless-develop
@@ -20,7 +20,7 @@ job_environments:
     CLOUDSQL_INSTANCE: planet4-prod
     GCLOUD_CLUSTER: planet4-production
     GOOGLE_PROJECT_ID: planet4-production
-    HELM_NAMESPACE: turkey
+    HELM_NAMESPACE: turkey-staging
     HELM_RELEASE: planet4-turkey-release
     WP_DB_NAME: planet4-turkey_wordpress_release
     WP_STATELESS_BUCKET: planet4-turkey-stateless-release
